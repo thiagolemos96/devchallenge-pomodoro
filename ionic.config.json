@@ -1,8 +1,0 @@
-{
-  "name": "Pomodoro",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react",
-  "id": "f101f334"
-}
