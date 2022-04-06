@@ -1,0 +1,240 @@
+/* Tela inicial */
+.colMaster{
+  display: flex;
+  flex-direction: column;
+}
+
+.rowHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: solid red; */
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.rowBody{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: solid blue; */
+  margin-top: 90px;
+}
+
+.rowFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  /* border: solid green; */
+}
+
+.colSquare{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px 0px 30px;
+}
+
+.rowSquare{
+  display: flex;
+  flex-direction: row;
+  /* border: solid red; */
+}
+
+.colSquareLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* border: solid blue; */
+  margin: 15px 15px 0px 0px;
+}
+
+.rowUp{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+
+.buttonUp{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #333853;
+  padding: 0px;
+}
+
+.arrowUp{
+  width: 100%;
+  height: 100%;
+  color: #666d8c;
+}
+
+.rowDown{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.buttonDown{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #333853;
+  padding: 0px;
+}
+
+.arrowDown{
+  width: 100%;
+  height: 100%;
+  color: #666d8c;
+}
+
+.colSquareRight{
+  display: flex;
+  flex-direction: column;
+  /* border: solid green; */
+  text-align: center;
+  font-weight: bold;
+}
+
+.square{
+  border-radius: 9%;
+  background-color: #3c4363;
+  box-shadow: 0px 3px 6px black;
+  width: 150px; /* Verificar forma de fazer isso sem deixar um valor preso*/
+  display: flex;
+  justify-content: center;
+  height: 110px;
+}
+
+.counter{
+  /* font-size: xxx-large; */
+  font-size: 70px;
+  margin: 0px;
+  padding: 10px 10px 5px 10px;
+  
+}
+
+.text{
+  margin: 15px 0px 0px 0px;
+  font-size: 20px;
+}
+
+.btnStart{
+  width: 250px;
+  height: 80px;
+  border-radius: 10%;
+  background-color: #3c4363;
+  box-shadow: 0px 3px 6px black;
+  border: none;
+  color: #a3a6b5;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* Tela inicial */
+
+/* Tela Pomodoro */
+.rowNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: solid red; */
+  padding: 15px 60px 10px 60px;
+}
+
+.textNav{
+  font-size: 45px;
+}
+
+.btnHome{
+  width: 150px;
+  height: 70px;
+  border-radius: 10%;
+  background-color: #3c4262;
+  box-shadow: 0px 3px 6px black;
+  border: none;
+  color: #a3a6b5;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.rowPomodoro{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: solid blue; */
+}
+
+.colPomodoroLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: solid pink; */
+}
+
+.circleOut{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c4262;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.circleIn{
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #3c4262;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.colPomodoroRight{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: solid yellow; */
+  align-items: center;
+  margin-left: 15px;
+}
+
+.rowSessoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.qtdSessoes{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 10px 5px 0px 5px;
+}
+
+.btnPlay{
+  width: 70px;
+  height: 70px;
+  border-radius: 10%;
+  background-color: #3c4262;
+  box-shadow: 0px 3px 6px black;
+  border: none;
+  color: #a3a6b5;
+  font-size: 35px;
+  margin-top: 20px;
+}
+/* Tela Pomodoro */
